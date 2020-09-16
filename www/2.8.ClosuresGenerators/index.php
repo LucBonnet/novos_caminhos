@@ -36,7 +36,7 @@ var_dump($myCart);
 
 PHPClassSession('Generators', __LINE__);
 
-$interator = 40000;
+$interator = 4000;
 
 // function showDates($days){
 //   $saveDate = [];
@@ -52,9 +52,6 @@ $interator = 40000;
 //   echo "<small class='tag'>{$date}</small>";
 // }
 // echo "</div>";
-
-
-
 
 function generatorDates($days){
   for ($day = 1; $day < $days; $day++) {
