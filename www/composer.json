@@ -1,0 +1,21 @@
+{
+  "name": "luc/luc-upc",
+  "description": "Curso de Programador Web",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Jean-Luc Bonnet",
+      "email": "lucbonnet10@gmail.com",
+      "homepage": "https://github.com/LucBonnet",
+      "role": "Developer"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "classes\\": "classes/"
+    }
+  }
+}
