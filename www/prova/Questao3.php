@@ -17,5 +17,15 @@
 
 function adjacentElementsProduct($inputArray)
 {
-    // CÓDIGO
+  $resul = 0;
+  for($i = 0; $i < count($inputArray); $i++){
+    if($i != (count($inputArray) - 1)) {
+      if($inputArray[$i] * $inputArray[($i + 1)] > $resul){
+        $resul = $inputArray[$i] * $inputArray[($i + 1)];
+      }
+    }
+  }
+  echo "<p>{$resul}</p>";
 }
+
+adjacentElementsProduct([3, 6, -2, -5, 7, 3]);

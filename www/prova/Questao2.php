@@ -18,5 +18,14 @@
 
 function checkPalindrome($inputString)
 {
-    // CÓDIGO
+  $letters = str_split($inputString);
+  $reversedString = implode(array_reverse($letters));
+
+  if($inputString == $reversedString){
+    return true;
+  }else{
+    return false;
+  }
 }
+
+var_dump(checkPalindrome("abcde"));

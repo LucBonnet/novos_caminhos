@@ -22,7 +22,14 @@
 
 function centuryFromYear($year)
 {
-
-    // CÓDIGO ...
-
+  $century = 0;
+  if($year % 100 == 0){
+    $century = $year / 100;
+  }else{
+    $century = floor($year / 100) + 1;
+  }
+  
+  return $century;
 }
+
+echo centuryFromYear(1800);
