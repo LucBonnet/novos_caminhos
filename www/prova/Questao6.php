@@ -28,3 +28,4 @@ function allLongestStrings($inputArray)
 }
 
 allLongestStrings(["aaaa", "aa", "ad", "vcd", "aba"]);
+//["aaaa"];

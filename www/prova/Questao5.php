@@ -35,3 +35,4 @@ function almostIncreasingSequence($sequence)
 }
 
 almostIncreasingSequence([1, 3, 2]);
+//true

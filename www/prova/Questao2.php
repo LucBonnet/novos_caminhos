@@ -29,3 +29,4 @@ function checkPalindrome($inputString)
 }
 
 var_dump(checkPalindrome("abcde"));
+//false

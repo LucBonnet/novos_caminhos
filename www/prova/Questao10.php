@@ -19,4 +19,46 @@
 
 function reverseInParentheses($inputString)
 {
+  $isInP = false;
+  $inP = [];
+  $p = [];
+  foreach(str_split($inputString) as $character){
+    if($isInP && $character != ")"){
+      $inP[] = $character;
+    } 
+
+    if($character == "("){
+      $isInP = true;
+    }else if($character == ")"){
+      $isInP = false;
+      
+      $p[] = array_reverse($inP);
+      $inP = [];
+    }
+  }
+  
+  $isInP = false;
+  $resul = [];
+  $i = 0;
+  foreach(str_split($inputString) as $character){
+    if($isInP && $character != ")"){
+      
+    }else if($character != "(" && $character != ")"){
+      $resul[] = $character;
+    }
+
+    if($character == "("){
+      $isInP = true;
+    }else if($character == ")"){
+      $isInP = false;
+      foreach($p[$i] as $item){
+        $resul[] = $item;
+      }
+      $i++;
+    }
+  }
+  echo implode("", $resul);
 }
+
+reverseInParentheses("foo(bar)baz");
+//foorabbaz

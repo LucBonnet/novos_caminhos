@@ -32,3 +32,4 @@ function commonCharacterCount($s1, $s2)
 }
 
 commonCharacterCount("aabcc", "adcaa");
+//3;
