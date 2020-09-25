@@ -12,11 +12,23 @@
 function commonCharacterCount($s1, $s2)
 {
   $letters1 = str_split($s1);
-  var_dump($letters1);
   $letters2 = str_split($s2);
-  var_dump($letters2);
 
-  var_dump(array_diff($letters2, $letters1));
+  $num = 0;
+
+  foreach ($letters1 as $letter1) {
+    foreach ($letters2 as $letter2) {
+      if ($letter1 == $letter2) {
+        $num++;
+        $index = (int) array_search($letter2, $letters2);
+        unset($letters2[$index]);
+
+        break;
+      }
+    }
+  }
+
+  echo $num;
 }
 
 commonCharacterCount("aabcc", "adcaa");

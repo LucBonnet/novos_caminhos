@@ -19,5 +19,4 @@
 
 function reverseInParentheses($inputString)
 {
-    // CÓDIGO
 }
