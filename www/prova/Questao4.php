@@ -21,17 +21,18 @@
 // ou seja de três estátuas
 
 function makeArrayConsecutive2($statues)
-{   
+{
   $num = 0;
   sort($statues);
-  for($i = 0; $i < count($statues); $i++){
-    if($i != (count($statues) - 1)){
-      if(!($statues[$i+1] == ($statues[$i])+1)){
-        $num++;
+  for ($i = 0; $i < count($statues); $i++) {
+    // echo "<p>$statues[$i]</p>";
+    if ($i != (count($statues) - 1)) {
+      if (!($statues[$i + 1] == ($statues[$i]) + 1)) {
+        $num += ($statues[$i + 1] - $statues[$i]) - 1;
       }
     }
   }
   echo $num;
 }
 
-makeArrayConsecutive2([10, 5, 8, 6, 7]);
+makeArrayConsecutive2([6, 2, 3, 8, 9, 12]);

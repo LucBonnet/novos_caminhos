@@ -19,5 +19,19 @@
 
 function almostIncreasingSequence($sequence)
 {
-    // CÓDIGO
+  $crescente = false;
+  for ($i = 0; $i < count($sequence); $i++) {
+    $array = $sequence;
+    unset($array[$i]);
+
+    $sortedArray = $array;
+    sort($sortedArray);
+
+    if (array_values($array) == array_values($sortedArray)) {
+      $crescente = true;
+    }
+  }
+  var_dump($crescente);
 }
+
+almostIncreasingSequence([1, 3, 2]);

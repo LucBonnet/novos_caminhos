@@ -11,5 +11,12 @@
 
 function commonCharacterCount($s1, $s2)
 {
-    // CÓDIGO
+  $letters1 = str_split($s1);
+  var_dump($letters1);
+  $letters2 = str_split($s2);
+  var_dump($letters2);
+
+  var_dump(array_diff($letters2, $letters1));
 }
+
+commonCharacterCount("aabcc", "adcaa");

@@ -1,0 +1,65 @@
+[24-Sep-2020 23:31:11 America/Araguaina] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /usr/share/nginx/html/prova/Questao4.php on line 39
+[24-Sep-2020 23:31:13 America/Araguaina] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /usr/share/nginx/html/prova/Questao4.php on line 39
+[24-Sep-2020 23:34:52 America/Araguaina] PHP Notice:  Undefined offset: 4 in /usr/share/nginx/html/prova/Questao4.php on line 30
+[24-Sep-2020 23:34:52 America/Araguaina] PHP Stack trace:
+[24-Sep-2020 23:34:52 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/prova/Questao4.php:0
+[24-Sep-2020 23:34:52 America/Araguaina] PHP   2. makeArrayConsecutive2() /usr/share/nginx/html/prova/Questao4.php:37
+[24-Sep-2020 23:34:52 America/Araguaina] PHP Notice:  Undefined offset: 4 in /usr/share/nginx/html/prova/Questao4.php on line 31
+[24-Sep-2020 23:34:52 America/Araguaina] PHP Stack trace:
+[24-Sep-2020 23:34:52 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/prova/Questao4.php:0
+[24-Sep-2020 23:34:52 America/Araguaina] PHP   2. makeArrayConsecutive2() /usr/share/nginx/html/prova/Questao4.php:37
+[24-Sep-2020 23:58:18 America/Araguaina] PHP Notice:  Undefined offset: 0 in /usr/share/nginx/html/prova/Questao5.php on line 33
+[24-Sep-2020 23:58:18 America/Araguaina] PHP Stack trace:
+[24-Sep-2020 23:58:18 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/prova/Questao5.php:0
+[24-Sep-2020 23:58:18 America/Araguaina] PHP   2. almostIncreasingSequence() /usr/share/nginx/html/prova/Questao5.php:41
+[24-Sep-2020 23:59:24 America/Araguaina] PHP Notice:  Array to string conversion in /usr/share/nginx/html/prova/Questao5.php on line 32
+[24-Sep-2020 23:59:24 America/Araguaina] PHP Stack trace:
+[24-Sep-2020 23:59:24 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/prova/Questao5.php:0
+[24-Sep-2020 23:59:24 America/Araguaina] PHP   2. almostIncreasingSequence() /usr/share/nginx/html/prova/Questao5.php:37
+[24-Sep-2020 23:59:24 America/Araguaina] PHP Notice:  Array to string conversion in /usr/share/nginx/html/prova/Questao5.php on line 32
+[24-Sep-2020 23:59:24 America/Araguaina] PHP Stack trace:
+[24-Sep-2020 23:59:24 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/prova/Questao5.php:0
+[24-Sep-2020 23:59:24 America/Araguaina] PHP   2. almostIncreasingSequence() /usr/share/nginx/html/prova/Questao5.php:37
+[24-Sep-2020 23:59:24 America/Araguaina] PHP Notice:  Array to string conversion in /usr/share/nginx/html/prova/Questao5.php on line 32
+[24-Sep-2020 23:59:24 America/Araguaina] PHP Stack trace:
+[24-Sep-2020 23:59:24 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/prova/Questao5.php:0
+[24-Sep-2020 23:59:24 America/Araguaina] PHP   2. almostIncreasingSequence() /usr/share/nginx/html/prova/Questao5.php:37
+[24-Sep-2020 23:59:24 America/Araguaina] PHP Notice:  Array to string conversion in /usr/share/nginx/html/prova/Questao5.php on line 32
+[24-Sep-2020 23:59:24 America/Araguaina] PHP Stack trace:
+[24-Sep-2020 23:59:24 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/prova/Questao5.php:0
+[24-Sep-2020 23:59:24 America/Araguaina] PHP   2. almostIncreasingSequence() /usr/share/nginx/html/prova/Questao5.php:37
+[25-Sep-2020 00:20:46 America/Araguaina] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /usr/share/nginx/html/prova/Questao6.php on line 23
+[25-Sep-2020 00:20:46 America/Araguaina] PHP Stack trace:
+[25-Sep-2020 00:20:46 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/prova/Questao6.php:0
+[25-Sep-2020 00:20:46 America/Araguaina] PHP   2. allLongestStrings() /usr/share/nginx/html/prova/Questao6.php:30
+[25-Sep-2020 00:20:46 America/Araguaina] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /usr/share/nginx/html/prova/Questao6.php on line 23
+[25-Sep-2020 00:20:46 America/Araguaina] PHP Stack trace:
+[25-Sep-2020 00:20:46 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/prova/Questao6.php:0
+[25-Sep-2020 00:20:46 America/Araguaina] PHP   2. allLongestStrings() /usr/share/nginx/html/prova/Questao6.php:30
+[25-Sep-2020 00:20:46 America/Araguaina] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /usr/share/nginx/html/prova/Questao6.php on line 23
+[25-Sep-2020 00:20:46 America/Araguaina] PHP Stack trace:
+[25-Sep-2020 00:20:46 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/prova/Questao6.php:0
+[25-Sep-2020 00:20:46 America/Araguaina] PHP   2. allLongestStrings() /usr/share/nginx/html/prova/Questao6.php:30
+[25-Sep-2020 00:20:46 America/Araguaina] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /usr/share/nginx/html/prova/Questao6.php on line 23
+[25-Sep-2020 00:20:46 America/Araguaina] PHP Stack trace:
+[25-Sep-2020 00:20:46 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/prova/Questao6.php:0
+[25-Sep-2020 00:20:46 America/Araguaina] PHP   2. allLongestStrings() /usr/share/nginx/html/prova/Questao6.php:30
+[25-Sep-2020 00:20:46 America/Araguaina] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /usr/share/nginx/html/prova/Questao6.php on line 23
+[25-Sep-2020 00:20:46 America/Araguaina] PHP Stack trace:
+[25-Sep-2020 00:20:46 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/prova/Questao6.php:0
+[25-Sep-2020 00:20:46 America/Araguaina] PHP   2. allLongestStrings() /usr/share/nginx/html/prova/Questao6.php:30
+[25-Sep-2020 00:38:01 America/Araguaina] PHP Warning:  array_uintersect(): at least 3 parameters are required, 2 given in /usr/share/nginx/html/prova/Questao7.php on line 19
+[25-Sep-2020 00:38:01 America/Araguaina] PHP Stack trace:
+[25-Sep-2020 00:38:01 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/prova/Questao7.php:0
+[25-Sep-2020 00:38:01 America/Araguaina] PHP   2. commonCharacterCount() /usr/share/nginx/html/prova/Questao7.php:22
+[25-Sep-2020 00:38:01 America/Araguaina] PHP   3. array_uintersect() /usr/share/nginx/html/prova/Questao7.php:19
+[25-Sep-2020 00:40:14 America/Araguaina] PHP Warning:  array_chunk() expects parameter 2 to be int, array given in /usr/share/nginx/html/prova/Questao7.php on line 19
+[25-Sep-2020 00:40:14 America/Araguaina] PHP Stack trace:
+[25-Sep-2020 00:40:14 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/prova/Questao7.php:0
+[25-Sep-2020 00:40:14 America/Araguaina] PHP   2. commonCharacterCount() /usr/share/nginx/html/prova/Questao7.php:22
+[25-Sep-2020 00:40:14 America/Araguaina] PHP   3. array_chunk() /usr/share/nginx/html/prova/Questao7.php:19
+[25-Sep-2020 00:47:21 America/Araguaina] PHP Fatal error:  Uncaught Error: Unsupported operand types in /usr/share/nginx/html/prova/Questao7.php:20
+Stack trace:
+#0 /usr/share/nginx/html/prova/Questao7.php(23): commonCharacterCount()
+#1 {main}
+  thrown in /usr/share/nginx/html/prova/Questao7.php on line 20
