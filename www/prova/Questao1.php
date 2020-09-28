@@ -32,4 +32,4 @@ function centuryFromYear($year)
   return $century;
 }
 
-echo centuryFromYear(1800);
+echo centuryFromYear(374);

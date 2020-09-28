@@ -38,5 +38,4 @@ function isLucky($n)
   }
 }
 
-isLucky(1230);
-//true
+isLucky(261534);

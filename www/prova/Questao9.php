@@ -44,8 +44,7 @@ function sortByHeight($a)
       $sortedArray[] = $values[$i - $c];
     }
   }
-  var_dump($sortedArray);
+  echo "[".implode(", ", $sortedArray)."]";
 }
 
-sortByHeight([-1, 150, -1, 190, 170, -1, -1, 180, 160]);
-//[-1, 150, -1, 160, 170, -1, -1, 180, 190];
+sortByHeight([23, 54, -1, 43, 1, -1, -1, 77, -1, -1, -1, 3]);

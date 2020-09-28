@@ -28,5 +28,5 @@ function checkPalindrome($inputString)
   }
 }
 
-var_dump(checkPalindrome("abcde"));
+var_dump(checkPalindrome("zzzazzazz"));
 //false

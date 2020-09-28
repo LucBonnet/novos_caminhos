@@ -27,5 +27,4 @@ function allLongestStrings($inputArray)
   var_dump($newArray);
 }
 
-allLongestStrings(["aaaa", "aa", "ad", "vcd", "aba"]);
-//["aaaa"];
+allLongestStrings(["a", "abc", "cbd", "zzzzzz", "a", "abcdef", "asasa", "aaaaaa"]);

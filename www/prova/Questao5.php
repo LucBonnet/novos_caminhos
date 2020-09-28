@@ -26,13 +26,15 @@ function almostIncreasingSequence($sequence)
 
     $sortedArray = $array;
     sort($sortedArray);
+    var_dump($sortedArray);
 
     if (array_values($array) == array_values($sortedArray)) {
+      echo "crescente";
       $crescente = true;
     }
   }
   var_dump($crescente);
 }
 
-almostIncreasingSequence([1, 3, 2]);
+almostIncreasingSequence([3, 5, 67, 98, 3]);
 //true

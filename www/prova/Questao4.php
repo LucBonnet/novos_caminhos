@@ -35,5 +35,4 @@ function makeArrayConsecutive2($statues)
   echo $num;
 }
 
-makeArrayConsecutive2([6, 2, 3, 8, 9, 12]);
-//5
+makeArrayConsecutive2([6, 3]);

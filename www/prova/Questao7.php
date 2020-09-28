@@ -31,5 +31,4 @@ function commonCharacterCount($s1, $s2)
   echo $num;
 }
 
-commonCharacterCount("aabcc", "adcaa");
-//3;
+commonCharacterCount("zzzz", "zzzzzzz");
