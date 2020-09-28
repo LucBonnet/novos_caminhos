@@ -1,21 +1,21 @@
 {
-    "name": "iuryprof/ifto",
-    "description": "Curso de Programador WEB",
-    "minimum-stability": "stable",
-    "authors": [
-        {
-            "name": "Iury Gomes de Oliveira",
-            "email": "iury.oliveira@ifto.edu.br",
-            "homepage": "https://github.com/iurygdeoliveira",
-            "role": "Developer"
-        }
-    ],
-    "config": {
-        "vendor-dir": "vendor"
-    },
-    "autoload": {
-        "psr-4": {
-            "classes\\": "classes/"
-        }
+  "name": "luc/luc-upc",
+  "description": "Curso de Programador Web",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Jean-Luc Bonnet",
+      "email": "lucbonnet10@gmail.com",
+      "homepage": "https://github.com/LucBonnet",
+      "role": "Developer"
     }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "classes\\": "classes/"
+    }
+  }
 }
