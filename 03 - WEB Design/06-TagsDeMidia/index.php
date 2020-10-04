@@ -166,13 +166,11 @@
       </article>
     </section>
   </main>
-
   <aside>
     <header>
       <h1> Sidebar (Barra lateral)</h1>
     </header>
   </aside>
-
   <footer>
     <!-- PAGINAS DO SITE, TERMOS DE USO, LINKS LEGAIS, COPYRIGHT -->
   </footer>

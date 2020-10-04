@@ -46,15 +46,6 @@
             <h5> h5 </h5>
         -->
       <div>
-        <figure>
-          <img src="assets/img/ifto.svg" alt="REDE FEDERAL DE EDUCACAO" title="REDE FEDERAL DE EDUCAÇÃO" width="500">
-        </figure>
-        <figure>
-          <img src="assets/img/rede_federal.png" alt="REDE FEDERAL DE EDUCACAO" title="REDE FEDERAL DE EDUCAÇÃO"
-            width="500">
-        </figure>
-        <audio src="assets/audio/musica.mp3" controls></audio>
-        <video src="assets/video/rede_federal.mp4" controls></video>
         <p>
           <!-- MARCAÇÃO DE PARÁGRAFOS -->
           A história da Rede Federal de Educação Profissional, Científica e Tecnológica começou em 1909,
@@ -166,13 +157,11 @@
       </article>
     </section>
   </main>
-
   <aside>
     <header>
       <h1> Sidebar (Barra lateral)</h1>
     </header>
   </aside>
-
   <footer>
     <!-- PAGINAS DO SITE, TERMOS DE USO, LINKS LEGAIS, COPYRIGHT -->
   </footer>
