@@ -1,182 +1,95 @@
-<!DOCTYPE html> <!-- DOCUMENTO HTML 5-->
+<!DOCTYPE html>
 <html lang='pt-br'>
-<!-- INFORMAR A LÍNGUA QUE SERÁ UTILIZADA NO SITE -->
 
 <head>
-  <!-- CONJUNTO DE CARACTERES -->
   <meta charset='UTF-8'>
-  <!-- VIEWPORT -->
   <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-  <!-- ROBOTS -->
   <meta name='robots' content='index, follow'>
-  <!-- SHORTCUT -->
-  <link rel='shortcut icon' href='http://www.ifto.edu.br/++theme++azul/img/favicon.ico'>
-  <!-- CSS -->
+  <link rel='shortcut icon' href=''>
   <link rel='stylesheet' href=''>
-  <!-- TÍTULO DA PÁGINA -->
-  <title>APRENDENDO HTML</title>
+  <title>Document</title>
 </head>
-<!-- CONTEÚDO EXIBIDO PARA O USUÁRIO -->
 
 <body>
-  <!-- Tags semanticas do HTML -->
-  <!-- https://medium.com/reprogramabr/semanticahtml5-5252b4937f0a -->
-  <!-- Técnicas de Black Hat SEO, EVITE ! -->
-  <!-- https://resultadosdigitais.com.br/blog/black-hat/ -->
-  <header>
-    <!-- LOGO, MENU DE NAVEGAÇÃO -->
-    <nav>
-      <ul>
-        <li> <a href="#home"> Home </a></li>
-        <li> <a href="#empresa"> A empresa </a></li>
-        <li> <a href="#quemsomos"> Quem somos </a></li>
-        <li> <a href="#contato"> Contato </a></li>
-      </ul>
-    </nav>
-  </header>
+
   <main>
-    <article>
-      <header>
-        <h1> Os melhores e mais completos cursos de educação profissional do Brasil </h1>
-      </header>
-      <!-- 
-            <h2> h2 </h2>
-            <h3> h3 </h3>
-            <h4> h4 </h4>
-            <h5> h5 </h5>
-        -->
-      <div>
-        <figure>
-          <img src="assets/img/ifto.svg" alt="REDE FEDERAL DE EDUCACAO" title="REDE FEDERAL DE EDUCAÇÃO" width="500">
-        </figure>
-        <figure>
-          <img src="assets/img/rede_federal.png" alt="REDE FEDERAL DE EDUCACAO" title="REDE FEDERAL DE EDUCAÇÃO"
-            width="500">
-        </figure>
-        <audio src="assets/audio/musica.mp3" controls></audio>
-        <video src="assets/video/rede_federal.mp4" controls></video>
+    <form action="" method="post">
+      <fieldset>
+        <legend>
+          Meu formulário
+        </legend>
+        <!-- readonly: input apenas para leitura -->
         <p>
-          <!-- MARCAÇÃO DE PARÁGRAFOS -->
-          A história da Rede Federal de Educação Profissional, Científica e Tecnológica começou em 1909,
-          quando o
-          então
-          Presidente da República, Nilo Peçanha, criou 19 escolas de Aprendizes e Artífices que, mais tarde,
-          deram
-          origem
-          aos
-          Centros Federais de Educação Profissional e Tecnológica (Cefets).
+          Insira seu nome: <input type="text" name="nome" id="nome" placeholder="Digite o seu nome" required>
         </p>
-        <p> Tida no seu início como instrumento de política voltado para as 'classes desprovidas', a Rede
-          Federal se
-          configura
-          hoje como importante estrutura para que todas as pessoas tenham efetivo acesso às conquistas
-          científicas
-          e
-          tecnológicas.
+
+        <p>
+          Insira seu email: <input type="email" name="email" id="email" placeholder="Digite o seu email" required>
         </p>
-        <p>Foi na década de 1980 que um novo cenário econômico e produtivo se estabeleceu, com o desenvolvimento
-          de
-          novas
-          tecnologias, agregadas à produção e à prestação de serviços. Para atender a essa demanda, as
-          instituições de
-          educação profissional vêm buscando diversificar programas e cursos para elevar os níveis da
-          qualidade da
-          oferta.
+
+        <p>
+          Insira sua senha: <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required>
         </p>
-        <p>Cobrindo todo o território nacional, a Rede Federal presta um serviço à nação, ao dar continuidade à
-          sua
-          missão
-          de
-          qualificar profissionais para os diversos setores da economia brasileira, realizar pesquisa e
-          desenvolver
-          novos
-          processos, produtos e serviços em colaboração com o setor produtivo.
+
+        <p>
+          Insira seu sexo: <br>
+          <input type="radio" name="sexo" required> Masculino
+          <input type="radio" name="sexo" required> Feminino
         </p>
-        <p>Em 29 de dezembro de 2008 , 31 centros federais de educação tecnológica (Cefets), 75 unidades
-          descentralizadas
-          de ensino (Uneds), 39 escolas agrotécnicas, 7 escolas técnicas federais e 8 escolas vinculadas a
-          universidades
-          deixaram de existir para formar os Institutos Federais de Educação, Ciência e Tecnologia.
+
+        <p>
+          Insira sua tecnologia preferida: <br>
+          <input type="checkbox" name="HTML" id="HTML"> HTML 5
+          <input type="checkbox" name="CSS" id="CSS"> CSS 3
+          <input type="checkbox" name="JAVASCRIPT" id="JAVASCRIPT"> JAVASCRIPT
+          <input type="checkbox" name="PHP" id="PHP"> PHP 8
         </p>
-        <a href="http://www.ifto.edu.br/araguaina" target="blank" title="Campus Araguaina" alt="Campus Araguaina">
-          Campus Araguaina
-        </a>
-        <h2> Lista de Cursos no IFTO - Campus Araguaína </h2>
-        <ul>
-          <li>Operador de Computador</li>
-          <li>Técnico em Biotecnologia</li>
-          <li>Técnico em Informática</li>
-          <li>Técnico em Análises Clínicas</li>
-          <li>Técnico em Enfermagem</li>
-          <li>Técnico em Informática para Internet</li>
-          <li>Tecnólogo em Análise e Desenvolvimento de Sistemas</li>
-          <li>Gestão em Produção Industrial</li>
-          <li>Especialização Lato Sensu em Educação Ambientam e Desenvolvimento Sustentável</li>
-        </ul>
-        <!-- <ol reversed> -->
-        <!-- <ol start='5'> -->
-        <!-- <ol type='I'> -->
-        <!-- <ol type='A'> -->
-        <ol type='a'>
-          <li>Operador de Computador</li>
-          <li>Técnico em Biotecnologia</li>
-          <li>Técnico em Informática</li>
-          <ul>
-            <li>Programador WEB</li>
-          </ul>
-          <li>Técnico em Análises Clínicas</li>
-          <li>Técnico em Enfermagem</li>
-          <li>Técnico em Informática para Internet</li>
-          <li>Tecnólogo em Análise e Desenvolvimento de Sistemas</li>
-          <li>Gestão em Produção Industrial</li>
-          <li>Especialização Lato Sensu em Educação Ambientam e Desenvolvimento Sustentável</li>
-        </ol>
-      </div>
-      <footer>
-        <p>Autor: Iury Gomes de Oliveira</p>
-      </footer>
-    </article>
-    <section>
-      <header>
-        <h1>As mais lidas do Site</h1>
-      </header>
-      <article>
-        <header>
-          <h1>Noticia 1</h1>
-          <p>Teste descritivo da noticia</p>
-        </header>
-      </article>
-      <article>
-        <header>
-          <h1>Noticia 2</h1>
-          <p>Teste descritivo da noticia</p>
-        </header>
-      </article>
-      <article>
-        <header>
-          <h1>Noticia 3</h1>
-          <p>Teste descritivo da noticia</p>
-        </header>
-      </article>
-      <article>
-        <header>
-          <h1>Noticia 4</h1>
-          <p>Teste descritivo da noticia</p>
-        </header>
-      </article>
-    </section>
+
+        <p>
+          Insira o arquivo: <input type="file" name="file" id="file">
+        </p>
+        <p>
+          Informe uma url: <input type="url" name="url" id="url" required>
+        </p>
+        <p>
+          Range: <input type="range" name="range" id="range" max="10" min="1" step="1" required>
+        </p>
+        <p>
+          Selecione um curso <br>
+          <select name="curso" id="curso">
+            <optgroup label="Grupo1">
+              <option value=""> Grupo 1.1</option>
+              <option value=""> Grupo 1.2</option>
+            </optgroup>
+            <optgroup label="Grupo2">
+              <option value=""> Grupo 2.1</option>
+              <option value=""> Grupo 2.2</option>
+            </optgroup>
+            <option value=""> Opção 1</option>
+            <option value=""> Opção 2</option>
+            <option value=""> Opção 3</option>
+          </select>
+        </p>
+
+        <p>
+          Date: <input type="date" name="date" id="date" required>
+        </p>
+        <p>
+          Time: <input type="time" name="time" id="time" required>
+        </p>
+
+        <p>
+          Date Time: <input type="datetime" name="datetime" id="datetime" required>
+        </p>
+
+        <p>
+          <button type="submit">
+            Validar !
+          </button>
+        </p>
+      </fieldset>
+    </form>
   </main>
-
-  <aside>
-    <header>
-      <h1> Sidebar (Barra lateral)</h1>
-    </header>
-  </aside>
-
-  <footer>
-    <!-- PAGINAS DO SITE, TERMOS DE USO, LINKS LEGAIS, COPYRIGHT -->
-  </footer>
-  <!-- SCRIPT -->
   <script> </script>
 </body>
 
