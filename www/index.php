@@ -6,20 +6,10 @@
     <meta name='viewport' conten='width=device-width, initial-scale=1.0'>
     <meta name='robots' content='index, follow'>
     <link rel='shortcut icon' href='assets/img/ifto.svg'>
-<<<<<<< HEAD
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
-</head>
 
-<body>
-    <header>
-        <h1>
-            Seja Bem Vendo ao meu site
-        </h1>
-        <p>Exemplo de seletores</p>
-=======
     <link rel='stylesheet' href='assets/css/icons/fonticon.css'>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+   
     <link rel='stylesheet' href='assets/css/boot.css'>
     <link rel='stylesheet' href='assets/css/style.css'>
     <title>Site do Curso</title>
@@ -42,7 +32,6 @@
                 </ul>
             </nav>
         </div>
->>>>>>> d4ae33772fddfb584cac32f63d5eea861ac12b2d
     </header>
     <!-- FIM CABEÇALHO -->
 
@@ -100,16 +89,10 @@
         <!-- NEWS -->
         <article>
             <header>
-<<<<<<< HEAD
-                <h2>
-                    Sessão principal do Conteúdo
-                </h2>
-=======
                 <h1>Quer receber todas as novidades em seu e-mail ?</h1>
                 <p>
                     Informe seu nome e e-mail no campo ao lado e clique em OK !
                 </p>
->>>>>>> d4ae33772fddfb584cac32f63d5eea861ac12b2d
             </header>
 
             <form action="news.php" method="post">
@@ -155,43 +138,10 @@
 
             <article>
                 <header>
-<<<<<<< HEAD
-                    <h3>
-                        Teste de Artigo
-                    </h3>
-=======
                     <h2><?= $vantagens[$i] ?></h2>
->>>>>>> d4ae33772fddfb584cac32f63d5eea861ac12b2d
                 </header>
 
                 <p>
-<<<<<<< HEAD
-                    Ipsum temporibus dolore eligendi harum quidem omnis quia adipisci. Rerum quod nulla. In impedit
-                    consectetur quis ut. Sequi dolores sit natus accusantium et incidunt molestias. Quia velit velit
-                    assumenda. Vitae delectus maxime sed eveniet pariatur id.
-                </p>
-            </article>
-
-            <article>
-                <header>
-                    <h3>
-                        Teste de Artigo
-                    </h3>
-                </header>
-
-                <p>
-                    Ipsum temporibus dolore eligendi harum quidem omnis quia adipisci. Rerum quod nulla. In impedit
-                    consectetur quis ut. Sequi dolores sit natus accusantium et incidunt molestias. Quia velit velit
-                    assumenda. Vitae delectus maxime sed eveniet pariatur id.
-                </p>
-            </article>
-
-            <article>
-                <header>
-                    <h3>
-                        Teste de Artigo
-                    </h3>
-=======
                     <?= $descricao[$i] ?>
                 </p>
             </article>
@@ -326,23 +276,9 @@
             <article>
                 <header>
                     <h2>Nos encontre</h2>
->>>>>>> d4ae33772fddfb584cac32f63d5eea861ac12b2d
                 </header>
 
                 <p>
-<<<<<<< HEAD
-                    Ipsum temporibus dolore eligendi harum quidem omnis quia adipisci. Rerum quod nulla. In impedit
-                    consectetur quis ut. Sequi dolores sit natus accusantium et incidunt molestias. Quia velit velit
-                    assumenda. Vitae delectus maxime sed eveniet pariatur id.
-                </p>
-            </article>
-
-            <article>
-                <header>
-                    <h3>
-                        Teste de Artigo
-                    </h3>
-=======
                     Av. Amazonas, esquina com a Av. Paraguai, Quadra 56, Lote 01, Setor Cimba
                 </p>
             </article>
@@ -361,38 +297,8 @@
                     <h2>
                         Formado em Ciência da Computação e Apaixonado por WEB
                     </h2>
->>>>>>> d4ae33772fddfb584cac32f63d5eea861ac12b2d
                 </header>
-
                 <p>
-<<<<<<< HEAD
-                    Ipsum temporibus dolore eligendi harum quidem omnis quia adipisci. Rerum quod nulla. In impedit
-                    consectetur quis ut. Sequi dolores sit natus accusantium et incidunt molestias. Quia velit velit
-                    assumenda. Vitae delectus maxime sed eveniet pariatur id.
-                </p>
-            </article>
-        </section>
-    </main>
-
-    <article>
-        <header>
-            <h3>
-                Teste de Artigo
-            </h3>
-        </header>
-
-        <p>
-            Ipsum temporibus dolore eligendi harum quidem omnis quia adipisci. Rerum quod nulla. In impedit
-            consectetur quis ut. Sequi dolores sit natus accusantium et incidunt molestias. Quia velit velit
-            assumenda. Vitae delectus maxime sed eveniet pariatur id.
-        </p>
-    </article>
-
-    <p>
-        Isso aqui é um bloco
-    </p>
-    <script></script>
-=======
                     Como muitos, comecei na programação por curiosidade! Com o tempo, o amor pela programação foi
                     crescendo a ponto se tornar uma profissão e me especializar na área. Hoje, com a bagagem que tenho,
                     compartilho meu conhecimento com todos os alunos do Campus Araguaína - IFTO
