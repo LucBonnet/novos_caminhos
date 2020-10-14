@@ -3,13 +3,11 @@
 
 <head>
     <meta charset='UTF-8'>
-    <meta name='viewport' conten='width=device-width, initial-scale=1.0'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <meta name='robots' content='index, follow'>
     <link rel='shortcut icon' href='assets/img/ifto.svg'>
-
     <link rel='stylesheet' href='assets/css/icons/fonticon.css'>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
-   
     <link rel='stylesheet' href='assets/css/boot.css'>
     <link rel='stylesheet' href='assets/css/style.css'>
     <title>Site do Curso</title>
@@ -140,7 +138,6 @@
                 <header>
                     <h2><?= $vantagens[$i] ?></h2>
                 </header>
-
                 <p>
                     <?= $descricao[$i] ?>
                 </p>
@@ -277,7 +274,6 @@
                 <header>
                     <h2>Nos encontre</h2>
                 </header>
-
                 <p>
                     Av. Amazonas, esquina com a Av. Paraguai, Quadra 56, Lote 01, Setor Cimba
                 </p>
@@ -398,7 +394,6 @@
     </footer>
 
     <script> </script>
->>>>>>> d4ae33772fddfb584cac32f63d5eea861ac12b2d
 </body>
 
 </html>
