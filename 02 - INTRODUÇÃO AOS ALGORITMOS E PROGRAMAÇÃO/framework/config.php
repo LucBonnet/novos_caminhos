@@ -8,7 +8,11 @@ header("Content-Type: text/html; charset=utf-8");
  * Configura o timezone da aplicação
  * Define a função para output de erros.
  */
+<<<<<<< HEAD
 date_default_timezone_set("America/Sao_Paulo");
+=======
+date_default_timezone_set("America/Araguaina");
+>>>>>>> c6ae50492ca6ba2063cfe46a8fd00770d23cbfef
 set_error_handler("PHPErrorHandler");
 
 /**
