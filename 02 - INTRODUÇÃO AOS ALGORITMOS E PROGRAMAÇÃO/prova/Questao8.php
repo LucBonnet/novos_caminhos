@@ -18,5 +18,24 @@
 
 function isLucky($n)
 {
-    // CÓDIGO
+  $numbers = str_split($n);
+
+  $firstHalf = [];
+  $lastHalf = [];
+
+  for ($i = 0; $i < count($numbers); $i++) {
+    if ($i < (count($numbers) / 2)) {
+      $firstHalf[] = $numbers[$i];
+    } else {
+      $lastHalf[] = $numbers[$i];
+    }
+  }
+
+  if (array_sum($firstHalf) == array_sum($lastHalf)) {
+    echo "true";
+  } else {
+    echo "false";
+  }
 }
+
+isLucky(261534);

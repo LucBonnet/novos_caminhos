@@ -24,5 +24,27 @@
 
 function sortByHeight($a)
 {
-    // CÓDIGO
+  $keys = array_keys(array_filter($a, function ($v) {
+    if ($v == -1)
+      return 1;
+  }));
+  $values = array_values(array_filter($a, function ($v) {
+    if ($v != -1)
+      return 1;
+  }));
+  sort($values);
+
+  $sortedArray = [];
+  $c = 0;
+  for ($i = 0; $i < count($a); $i++) {
+    if (in_array($i, $keys)) {
+      $sortedArray[] = -1;
+      $c++;
+    } else {
+      $sortedArray[] = $values[$i - $c];
+    }
+  }
+  echo "[".implode(", ", $sortedArray)."]";
 }
+
+sortByHeight([23, 54, -1, 43, 1, -1, -1, 77, -1, -1, -1, 3]);

@@ -12,5 +12,19 @@
 
 function allLongestStrings($inputArray)
 {
-    // CÓDIGO
+  $newArray = [];
+  $longestWordLength = 0;
+  foreach ($inputArray as $string) {
+    if (strlen($string) > $longestWordLength) {
+      $longestWordLength = strlen($string);
+    }
+  }
+  foreach ($inputArray as $string) {
+    if (strlen($string) == $longestWordLength) {
+      $newArray[] = $string;
+    }
+  }
+  var_dump($newArray);
 }
+
+allLongestStrings(["a", "abc", "cbd", "zzzzzz", "a", "abcdef", "asasa", "aaaaaa"]);

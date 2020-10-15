@@ -22,5 +22,17 @@
 
 function makeArrayConsecutive2($statues)
 {
-    // CÓDIGO
+  $num = 0;
+  sort($statues);
+  for ($i = 0; $i < count($statues); $i++) {
+    // echo "<p>$statues[$i]</p>";
+    if ($i != (count($statues) - 1)) {
+      if (!($statues[$i + 1] == ($statues[$i]) + 1)) {
+        $num += ($statues[$i + 1] - $statues[$i]) - 1;
+      }
+    }
+  }
+  echo $num;
 }
+
+makeArrayConsecutive2([6, 3]);
