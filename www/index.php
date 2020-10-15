@@ -498,16 +498,10 @@
         </p>
     </footer>
 
-<<<<<<< HEAD
     <script> </script>
-<<<<<<< HEAD
-=======
->>>>>>> d4ae33772fddfb584cac32f63d5eea861ac12b2d
-=======
+
     <script src="assets/js/jquery-3.3.1.min.js" type="text/javascript"></script>
     <script src="assets/js/main.js" type="text/javascript"></script>
->>>>>>> cad854a9c3c39c7bda5a8935804890d735867811
->>>>>>> feature/webdesing
 </body>
 
 </html>
